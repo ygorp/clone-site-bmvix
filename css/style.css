@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.topo-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #FFFFFF;
+  padding: 20px 0;
+  box-shadow: 1px 3px rgb(0, 0, 0, 26%);
+  z-index: 5;
+}
+
+.logo img {
+  width: 300px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.menu a {
+  padding: 20px;
+  color: #78767b;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.menu a:hover {
+  
+}
